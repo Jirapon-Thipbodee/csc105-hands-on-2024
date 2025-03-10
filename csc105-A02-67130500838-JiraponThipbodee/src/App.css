@@ -1,0 +1,56 @@
+.App {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-container {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  margin-right: 10px;
+  width: 200px;
+}
+
+.item-name {
+  color: #000000;
+}
+.item-name.bought {
+  color: #ffffff;
+}
+
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.table-container {
+  background-color: rgba(246, 255, 167, 0.63);
+  flex: 1;
+  overflow-y: auto;
+  border: 10px solid #694800;
+  border-radius: 12px;
+  padding: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0px 10px;
+}
+
+th, td {
+  border: 0.5px solid #00000000;
+  padding: 10px;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+tr, td:hover {
+  background-color: #96fc78;
+  transition: color 0.3s ease;
+}
